@@ -1,6 +1,6 @@
 FROM openjdk:21
 
-EXPOSE 8282:8282
+EXPOSE 8282
 
 VOLUME /tmp
 
