@@ -1,5 +1,7 @@
 FROM openjdk:21
 
+EXPOSE 9090
+
 VOLUME /tmp
 
 COPY target/demo-jenkins-0.0.1-SNAPSHOT.jar app.jar
