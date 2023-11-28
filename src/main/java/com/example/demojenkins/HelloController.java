@@ -5,10 +5,15 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HelloController {
+    private String name = "Spring Boot";
+
+    public String show() {
+        return "hello " + name;
+    }
 
     @GetMapping("/")
     public String index() {
-        return "Hello Spring Boot!";
+        return show();
     }
 
 }
