@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HelloController {
-    private String name = "Spring Boot";
+    private String name = "long";
 
     public String show() {
         return "hello " + name;
